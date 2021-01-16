@@ -15,7 +15,7 @@ let API_KEY = "a8e71c9932b20c4ceb0aed183e6a83bb";
  * https://api.openweathermap.org/data/2.5/weather?q=detroit&appid=a8e71c9932b20c4ceb0aed183e6a83bb&units=imperial
  */
 getWeatherData = (city) => {
-  const URL = "https://api.openweathermap.org/data/2.5/weather";
+  const URL = "https://api.openweathermap.org/data/2.5/weathers";
   //HINT: Use template literals to create a url with input and an API key
   const FULL_URL = `${URL}?q=${city}&appid=${API_KEY}&units=imperial`
   //CODE GOES HERE
